@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562078454556",
+    "project_id": "proyectodeintegracion-1871f",
+    "storage_bucket": "proyectodeintegracion-1871f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562078454556:android:528d0e1b176de8cece20d9",
+        "android_client_info": {
+          "package_name": "com.example.apppdintegracion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClGCnQYx9NPyf_JBlOSCrtzuPGoKDrnXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

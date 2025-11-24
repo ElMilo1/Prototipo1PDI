@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".AddRecordActivity">
+
+    <EditText
+        android:id="@+id/addPatentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patente (ej: aabb11)"
+        android:inputType="textCapCharacters"
+        android:maxLength="6" />
+
+    <EditText
+        android:id="@+id/addUserEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Usuario"
+        android:inputType="textPersonName" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/addStatusSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Estado: No Vinculado / Vinculado" />
+
+    <Button
+        android:id="@+id/saveRecordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Guardar Registro" />
+
+</LinearLayout>
